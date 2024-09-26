@@ -1,0 +1,36 @@
+.relators {
+  background-color: $color-secondary;
+  height: 100%;
+
+  &-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 4rem;
+  }
+
+  &-user {
+    display: flex;
+    gap: 2rem;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-img {
+    height: 8rem;
+    border-radius: 50%;
+  }
+  &-caption {
+    font-size: 1.8rem;
+    color: $color-grey-light-1;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  &-sold {
+    font-size: 1.2rem;
+    color: $color-grey-light-2;
+  }
+}

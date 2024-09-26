@@ -1,0 +1,12 @@
+.sidebar {
+  background-color: $color-primary;
+  text-align: center;
+  grid-row: 1 / -1;
+
+  &-menu {
+    padding: 1rem;
+    height: 6.4rem;
+    width: 6.4rem;
+    color: $color-grey-light-1;
+  }
+}

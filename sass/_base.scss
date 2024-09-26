@@ -1,0 +1,65 @@
+// COLOR VARIABLES
+$color-primary: #c69963;
+$color-primary-dark: #b28451;
+
+$color-secondary: #101d2c;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+
+$color-grey-dark-1: #54483a;
+$color-grey-dark-2: #6d5d4b;
+
+// FONT VARIABLES
+$font-primary: "Nunito", sans-serif;
+$font-display: "Josefin Sans", sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-grey-dark-2;
+  font-weight: 300;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.4fr 9.6fr;
+  grid-template-rows: min-content min-content 80vh repeat(3, min-content);
+  grid-auto-rows: min-content;
+}
+
+.grid {
+  display: grid;
+}
+.grid-col-2 {
+  grid-template-columns: 6.5fr 3.5fr;
+}
+.grid-col-22 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80vh;
+}
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6.4rem;
+}
+.grid-col-4 {
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.wrapper {
+  max-width: 110rem;
+  margin: 0 auto;
+  height: 100%;
+}

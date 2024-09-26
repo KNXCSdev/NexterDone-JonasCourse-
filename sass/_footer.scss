@@ -1,0 +1,38 @@
+.footer {
+  background-color: $color-secondary;
+  text-align: center;
+  padding: 3.6rem 0;
+  &-list {
+    padding: 6rem;
+  }
+  &-description {
+    font-size: 1.4rem;
+    color: $color-grey-light-2;
+  }
+}
+
+.list {
+  list-style: none;
+  margin-bottom: 6.4rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  &-item {
+    flex: 1;
+    &-link:link,
+    &-link:visited {
+      padding: 1.5rem;
+      display: block;
+      color: $color-grey-light-1;
+      text-decoration: none;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      transition: all 0.3s;
+    }
+    &-link:hover,
+    &-link:active {
+      background-color: rgba(255, 255, 255, 0.05);
+      transform: translateY(-3px);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import "base";
+@import "typography";
+
+@import "sidebar";
+@import "header";
+@import "realtors";
+@import "features";
+@import "story";
+@import "homes";
+@import "gallery";
+@import "footer";
+
+.base-link:link,
+.base-link:visited {
+  font-size: 1.4rem;
+  padding: 1.6rem 2.8rem;
+  display: inline-block;
+  background-color: $color-primary;
+  transition: all 0.5s;
+  text-transform: uppercase;
+  color: $color-grey-light-1;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.base-link:hover,
+.base-link:active {
+  background-color: $color-primary-dark;
+}

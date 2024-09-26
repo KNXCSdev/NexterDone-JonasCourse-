@@ -1,0 +1,37 @@
+.section-feature {
+  padding: 12.8rem 0;
+}
+
+.feature-block {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: minmax(0.3FR, 1FR) 1fr;
+  align-self: self-start;
+  grid-column-gap: 2.5rem;
+  &-logo {
+    grid-row: 1 / 2;
+    height: 10%;
+  }
+
+  &-heading {
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+
+  &-description {
+    grid-column: 2 / 3;
+    grid-row: 2;
+    color: inherit;
+  }
+
+  &-icon {
+    width: 4.4rem;
+    height: 4.4rem;
+    transform: translateY(-1rem);
+    color: $color-primary;
+  }
+}
+
+.feature-description {
+  font-size: 1.7rem;
+}
